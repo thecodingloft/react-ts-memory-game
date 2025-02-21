@@ -8,8 +8,10 @@ export default function App() {
   return(
     <>
       <div id="app" style={{}}>
-        <h1>Hello</h1>
-        <StepIntro />
+        <div className="container">
+          <h1>Hello</h1>
+          <StepIntro />
+        </div>
       </div>
     </>
   )
